@@ -3,7 +3,7 @@
 @section('Page')
 
 <!-- Slick Slider start -->
-<section class="gen-section-padding-2 pt-0 pb-0" style="margin-top: 7%;">
+<section class="gen-section-padding-2 pt-0 pb-0" style="margin-top: 10%;">
 <div class="container">
 <div class="home-singal-silder">
 <div class="gen-nav-movies gen-banner-movies">
@@ -18,6 +18,9 @@
 
 <div class="slider slider-nav">
 <!--- slider-nav-contain --->
+@include('slider-nav')
+@include('slider-nav')
+@include('slider-nav')
 @include('slider-nav')
 @include('slider-nav')
 @include('slider-nav')

@@ -47,7 +47,7 @@
 
                     </li>
                     <li class="item ">
-                      <a href="#" aria-current="page">اخر اخبار المصارعة</a>
+                      <a href="{{ route('news') }}" aria-current="page">اخر اخبار المصارعة</a>
                   </li>
                     <li class="menu-item">
                         <a href="#">عروض المصارعة</a>
@@ -68,7 +68,7 @@
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="#">نتائج العرض</a>
+                        <a href="{{ route('offers') }}">نتائج العرض</a>
                         <i class="fa fa-chevron-down gen-submenu-icon"></i>
                         <ul class="sub-menu">
                           <li class="menu-item menu-item-has-children">
@@ -89,67 +89,6 @@
                       <a href="#" aria-current="page">رويال رامبل 2022</a>
                     </li>
                   </ul>
-              </div>
-            </div>
-            <div class="gen-header-info-box">
-              <div class="gen-menu-search-block">
-                  <a href="javascript:void(0)" id="gen-seacrh-btn"><i class="fa fa-search"></i></a>
-                  <div class="gen-search-form">
-                    <form role="search" method="get" class="search-form" action="#">
-                        <label>
-                          <span class="screen-reader-text"></span>
-                          <input type="search" class="search-field" placeholder="Search …" value="" name="s">
-                        </label>
-                        <button type="submit" class="search-submit"><span
-                              class="screen-reader-text"></span></button>
-                    </form>
-                  </div>
-              </div>
-              <div class="gen-account-holder">
-                  <a href="javascript:void(0)" id="gen-user-btn"><i class="fa fa-user"></i></a>
-                  {{-- <div class="gen-account-menu">
-                    <ul class="gen-account-menu">
-                        <!-- Pms Menu -->
-                        <li>
-                          <a href="#"><i class="fas fa-sign-in-alt"></i>
-                              login </a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-user"></i>
-                              Register </a>
-                        </li>
-                        <!-- Library Menu -->
-                        <li>
-                          <a href="#">
-                              <i class="fa fa-indent"></i>
-                              Library </a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-list"></i>
-                              Movie Playlist </a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-list"></i>
-                              Tv Show Playlist </a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-list"></i>
-                              Video Playlist </a>
-                        </li>
-                        <li>
-                          <a href="upload-video.html"> <i class="fa fa-upload"></i>
-                              Upload Video </a>
-                        </li>
-                    </ul>
-                  </div> --}}
-              </div>
-              <div class="gen-btn-container">
-                  <a href="register.html" class="gen-button">
-                    <div class="gen-button-block">
-                        <span class="gen-button-line-left"></span>
-                        <span class="gen-button-text">Subscribe</span>
-                    </div>
-                  </a>
               </div>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -259,8 +198,9 @@
   <div class="container">
       <div class="row">
         <div class="col-md-12 align-self-center">
-            <span class="gen-copyright"><a target="_blank" href="#"> Copyright 2021 stremlab All Rights
-                  Reserved.</a></span>
+            <span class="gen-copyright"><a target="_blank" href="#"> © حقوق النشر 2023، جميع الحقوق محفوظة. <br>
+            <a href="#">  Yemen Point تطوير </a>
+            </a></span>
         </div>
       </div>
   </div>
