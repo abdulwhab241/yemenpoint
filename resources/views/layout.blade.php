@@ -43,7 +43,7 @@
               <div id="gen-menu-contain" class="gen-menu-contain">
                   <ul id="gen-main-menu" class="navbar-nav ml-auto">
                     <li class="item active">
-                        <a href="#" aria-current="page">الرئيسية</a>
+                        <a href="{{ route('home') }}" aria-current="page">الرئيسية</a>
 
                     </li>
                     <li class="item ">
