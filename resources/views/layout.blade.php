@@ -50,7 +50,7 @@
                       <a href="{{ route('news') }}" aria-current="page">اخر اخبار المصارعة</a>
                   </li>
                     <li class="menu-item">
-                        <a href="#">عروض المصارعة</a>
+                        <a href="{{ route('shows') }}">عروض المصارعة</a>
                         <i class="fa fa-chevron-down gen-submenu-icon"></i>
                         <ul class="sub-menu">
                           <li class="menu-item menu-item-has-children">

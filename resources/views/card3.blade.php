@@ -44,17 +44,16 @@
             </div>
             <div class="gen-info-contain">
                 <div class="gen-movie-info">
-                    <h3><a href="#">The
-                            warrior life</a></h3>
+                    <h3><a href="#"> عرض Impact وحوش امباكت الاخير 13-7-2023 كامل </a></h3>
                 </div>
-                {{-- <div class="gen-movie-meta-holder">
+                <div class="gen-movie-meta-holder">
                     <ul>
                         <li>2hr 00mins</li>
                         <li>
-                            <a href="#"><span>Action</span></a>
+                            <a href="#" class="text-center"><span>أكمل القراءة</span></a>
                         </li>
                     </ul>
-                </div> --}}
+                </div>
             </div>
         </div>
     </div>

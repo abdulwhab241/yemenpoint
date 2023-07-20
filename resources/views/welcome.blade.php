@@ -44,14 +44,14 @@
 </div>
 
 <div class="row mt-3">
-    @include('card3')
-    @include('card3')
-    @include('card3')
-    @include('card3')
-    @include('card3')
-    @include('card3')
-    @include('card3')
-    @include('card3')
+    @include('card')
+    @include('card')
+    @include('card')
+    @include('card')
+    @include('card')
+    @include('card')
+    @include('card')
+    @include('card')
 
 </div>
 </div>

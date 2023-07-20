@@ -25,4 +25,8 @@ class ViewController extends Controller
     {
         return view('pages.video');
     }
+    public function shows()
+    {
+        return view('pages.show');
+    }
 }

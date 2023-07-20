@@ -21,6 +21,7 @@ Route::get('/', function () {
 Route::get('/offers', [ViewController::class, 'offers'])->name('offers');
 Route::get('/news', [ViewController::class, 'news'])->name('news');
 Route::get('/videos', [ViewController::class, 'videos'])->name('videos');
+Route::get('/shows', [ViewController::class, 'shows'])->name('shows');
 Route::get('/', [ViewController::class, 'home'])->name('home');
 
 
